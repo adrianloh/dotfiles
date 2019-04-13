@@ -48,8 +48,8 @@ floating_modifier Mod4
 bindsym Mod4+m bar mode toggle
 
 # start a terminal
-bindsym Mod4+Return exec st
-bindsym Mod4+Shift+Return exec alacritty
+bindsym Mod4+Shift+Return exec st
+bindsym Mod4+Return exec alacritty
 
 # connect to vps
 #bindsym Mod4+Shift+Return exec "st -e mosh falte.red"
