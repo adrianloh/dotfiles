@@ -1,0 +1,13 @@
+[sendemail]
+    smtpencryption = tls
+    smtpserver = gbmor.dev
+    smtpuser = ben
+    smtpserverport = 587
+	annotate = yes
+[user]
+    name = Ben Morrison
+    email = ben@gbmor.dev
+    signingkey = EAB272409CD12FF0
+
+[commit]
+	gpgsign = true
