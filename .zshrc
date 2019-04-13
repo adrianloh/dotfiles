@@ -117,6 +117,7 @@ alias l='ls -CF'
 alias ls='ls --color=auto -F'
 alias pip='pip3'
 alias config='/usr/bin/git --git-dir=/home/ahriman/.dotfiles/ --work-tree=/home/ahriman'
+alias pkgs='/usr/bin/apt search --names-only'
 
 # some aliases for cd use
 alias devgo='cd ~/dev/go/src'
