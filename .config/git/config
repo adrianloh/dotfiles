@@ -5,7 +5,7 @@
     smtpserverport = 587
 	annotate = yes
 [user]
-    name = Ben Morrison
+    name = "Ben Morrison"
     email = ben@gbmor.dev
     signingkey = EAB272409CD12FF0
 
