@@ -131,6 +131,7 @@ alias devgitf='cd ~/dev/github/gbmor-forks'
 export VISUAL=vim
 export EDITOR=$VISUAL
 export BROWSER=firefox
+export TERM=xterm-256color
 export PATH=$HOME/dev/go/bin:/home/linuxbrew/.linuxbrew/bin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/bin:$PATH
 export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig
 export GOPATH=$HOME/dev/go
