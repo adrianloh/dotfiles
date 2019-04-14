@@ -118,6 +118,7 @@ alias ls='ls --color=auto -F'
 alias pip='pip3'
 alias config='/usr/bin/git --git-dir=/home/ahriman/.dotfiles/ --work-tree=/home/ahriman'
 alias pkgs='/usr/bin/apt search --names-only'
+alias netstat='netstat -lntp'
 
 # some aliases for cd use
 alias devgo='cd ~/dev/go/src'
@@ -137,5 +138,8 @@ export GOPATH=$HOME/dev/go
 # hide user@host for agnoster oh-my-zsh theme
 DEFAULT_USER=ahriman
 prompt_context(){}
+
+# remove newline before zsh prompt
+#SPACESHIP_PROMPT_ADD_NEWLINE=false
 
 ulimit -n 8096
