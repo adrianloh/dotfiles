@@ -68,6 +68,3 @@
 [[custom_plugins]]
     name = "airblade/vim-gitgutter"
     merged = true
-[[custom_plugins]]
-    name = "w0rp/ale"
-    merged = true
