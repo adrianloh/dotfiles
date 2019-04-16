@@ -24,29 +24,46 @@
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
     enable_statusline_mode = false
+    enable_neomake = false
+    enable_ale = true
+    lint_on_the_fly = true
 
 # Enable autocomplete layer
 [[layers]]
     name = 'autocomplete'
     auto-completion-return-key-behavior = "complete"
     auto-completion-tab-key-behavior = "smart"
-
+[[layers]]
+    name = 'colorscheme'
+[[layers]]
+    name = 'floobits'
+[[layers]]
+    name = 'git'
+[[layers]]
+    name = 'github'
+[[layers]]
+    name = 'lang#c'
+[[layers]]
+    name = 'lang#go'
+[[layers]]
+    name = 'lang#python'
+[[layers]]
+    name = 'lang#rust'
 [[layers]]
     name = 'shell'
     default_position = 'top'
     default_height = 30
-
 [[layers]]
-    name = 'colorscheme'
-
+    name = 'tags'
+[[layers]]
+    name = 'test'
 [[layers]]
     name = 'unite'
+[[layers]]
+    name = 'VersionControl'
 
 [[custom_plugins]]
     name = "fatih/vim-go"
-    merged = true
-[[custom_plugins]]
-    name = "tpope/vim-surround"
     merged = true
 [[custom_plugins]]
     name = "airblade/vim-gitgutter"
