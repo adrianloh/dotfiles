@@ -146,6 +146,7 @@ export TERM=xterm-256color
 export PATH=$HOME/.SpaceVim/bin:$HOME/dev/go/bin:/home/linuxbrew/.linuxbrew/bin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/bin:$PATH
 export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig
 export GOPATH=$HOME/dev/go
+export GTAGSLABEL=ctags
 
 # hide user@host for agnoster oh-my-zsh theme
 DEFAULT_USER=ahriman
