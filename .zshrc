@@ -134,9 +134,10 @@ alias netstat='netstat -lntp'
 # some aliases for cd use
 alias devgo='cd ~/dev/go/src'
 alias devgog='cd ~/dev/go/src/github.com/gbmor'
-alias devgit='cd ~/dev/github/'
-alias devgitg='cd ~/dev/github/gbmor'
-alias devgitf='cd ~/dev/github/gbmor-forks'
+alias devg='cd ~/dev/github/'
+alias devgg='cd ~/dev/github/gbmor'
+alias devggf='cd ~/dev/github/gbmor-forks'
+alias gk='/home/ahriman/bin/gk'
 
 # environment modifications
 export VISUAL=vim
@@ -145,8 +146,11 @@ export BROWSER=firefox
 export TERM=xterm-256color
 export PATH=$HOME/.SpaceVim/bin:$HOME/dev/go/bin:/home/linuxbrew/.linuxbrew/bin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/bin:$PATH
 export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig
+
+# go env
 export GOPATH=$HOME/dev/go
 export GTAGSLABEL=ctags
+export GO111MODULE=on
 
 # hide user@host for agnoster oh-my-zsh theme
 DEFAULT_USER=ahriman
