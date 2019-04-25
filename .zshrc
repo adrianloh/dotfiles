@@ -147,10 +147,15 @@ export TERM=xterm-256color
 export PATH=$HOME/.SpaceVim/bin:$HOME/dev/go/bin:/home/linuxbrew/.linuxbrew/bin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/bin:$PATH
 export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig
 
+# misc dev stuff
+export CODECOV_TOKEN="4b93eb89-22b0-4419-bb9a-1412867a8b8a"
+
 # go env
 export GOPATH=$HOME/dev/go
 export GTAGSLABEL=ctags
-export GO111MODULE=on
+export GO111MODULE=auto
+export GOMAXPROCS=4
+alias godoc='godoc -v -index -http=:6060'
 
 # hide user@host for agnoster oh-my-zsh theme
 DEFAULT_USER=ahriman
