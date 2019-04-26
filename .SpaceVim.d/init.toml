@@ -46,9 +46,23 @@
 [[layers]]
     name = 'lang#go'
 [[layers]]
+    name = 'lang#html'
+[[layers]]
+    name = 'lang#latex'
+[[layers]]
+    name = 'lang#lisp'
+[[layers]]
+    name = 'lang#markdown'
+[[layers]]
+    name = 'lang#perl'
+[[layers]]
     name = 'lang#python'
 [[layers]]
     name = 'lang#rust'
+[[layers]]
+    name = 'lang#scheme'
+[[layers]]
+    name = 'lang#sh'
 [[layers]]
     name = 'shell'
     default_position = 'top'
@@ -62,9 +76,6 @@
 [[layers]]
     name = 'VersionControl'
 
-[[custom_plugins]]
-    name = "fatih/vim-go"
-    merged = true
 [[custom_plugins]]
     name = "airblade/vim-gitgutter"
     merged = true
