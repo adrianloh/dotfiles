@@ -221,7 +221,9 @@ for_window [class="xterm"] exec "transset -a 0.9"
 for_window [class="URxvt"] exec "transset -a 0.9"
 for_window [class="st"] exec "transset -a 0.9"
 for_window [class="(?i)gnome(.*)"] exec "transset -a 0.9"
-for_window [class="Alacritty"] exec "transset -a 0.9"
+
+# alacritty has native transparency
+#for_window [class="Alacritty"] exec "transset -a 0.9"
 
 client.focused #00b0ef #00b0ef #141414 #ff7066
 client.focused_inactive #141414 #141414 #00b0ef #472b2a
