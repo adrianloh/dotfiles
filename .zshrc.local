@@ -1,0 +1,50 @@
+# use gpg-agent for ssh
+export GPG_TTY="$(tty)"
+export SSH_AUTH_SOCK="/run/user/$UID/gnupg/S.gpg-agent.ssh"
+#export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+gpg-connect-agent updatestartuptty /bye > /dev/null
+#gpgconf --launch gpg-agent
+gpgconf --create-socketdir
+
+
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias ls='ls --color=auto -F'
+alias pip='pip3'
+alias config='/usr/bin/git --git-dir=/home/ahriman/.dotfiles/ --work-tree=/home/ahriman'
+alias pkgs='/usr/bin/apt search --names-only'
+alias netstat='netstat -lntp'
+
+# some aliases for cd use
+alias devgo='cd ~/dev/go/src'
+alias devgog='cd ~/dev/go/src/github.com/gbmor'
+alias devg='cd ~/dev/github/'
+alias devgg='cd ~/dev/github/gbmor'
+alias devggf='cd ~/dev/github/gbmor-forks'
+alias gk='/home/ahriman/bin/gk'
+
+# environment modifications
+export VISUAL=vim
+export EDITOR=$VISUAL
+export BROWSER=firefox
+export TERM=xterm-256color
+export MANPATH="/usr/local/man:$MANPATH"
+export PATH=$HOME/.SpaceVim/bin:$HOME/dev/go/bin:/home/linuxbrew/.linuxbrew/bin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/bin:$PATH
+export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig
+
+# go env
+export GOPATH=$HOME/dev/go
+export GTAGSLABEL=ctags
+export GO111MODULE=auto
+export GOMAXPROCS=4
+alias godoc='godoc -v -index -http=:6060'
+
+# hide user@host for agnoster oh-my-zsh theme
+DEFAULT_USER=ahriman
+prompt_context(){}
+
+# remove newline before zsh prompt
+#SPACESHIP_PROMPT_ADD_NEWLINE=false
+
+ulimit -n 8096
