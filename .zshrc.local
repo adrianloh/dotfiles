@@ -39,7 +39,7 @@ export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig
 # go env
 export GOPATH=$HOME/dev/go
 export GTAGSLABEL=ctags
-export GO111MODULE=auto
+export GO111MODULE=on
 export GOMAXPROCS=4
 alias godoc='godoc -v -index -http=:6060'
 
