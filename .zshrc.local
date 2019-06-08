@@ -19,7 +19,7 @@ alias cat='bat -p'
 alias mtr='mtr -t'
 
 # some aliases for cd use
-alias devgo='cd ~/dev/go/src'
+alias devgo='cd ~/dev/go/src/github.com'
 alias devgog='cd ~/dev/go/src/github.com/gbmor'
 alias devg='cd ~/dev/github/'
 alias devgg='cd ~/dev/github/gbmor'
