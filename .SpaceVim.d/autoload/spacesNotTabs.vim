@@ -1,4 +1,4 @@
-function TabToggle()
+function spacesNotTabs#TabToggle()
   if &expandtab
     set noexpandtab
   else
@@ -7,5 +7,9 @@ function TabToggle()
 endfunction
 
 function! spacesNotTabs#after() abort
-  nmap <F12> :call TabToggle()<CR>
+  set shiftwidth=2
+  set softtabstop=2
+  set tabstop=2
+  set expandtab
+  nmap <F12> :call spacesNotTabs#TabToggle()<CR>
 endfunction
