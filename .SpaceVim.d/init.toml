@@ -30,6 +30,7 @@
     enable_ale = true
     lint_on_the_fly = true
     disabled_plugins = ["neco-look"]
+    #bootstrap_after="spacesNotTabs#after"
 
 # Enable autocomplete layer
 [[layers]]
@@ -38,6 +39,7 @@
     auto-completion-tab-key-behavior = "smart"
 [[layers]]
     name = 'checkers'
+    show_cursor_error = false
 [[layers]]
     name = 'colorscheme'
 [[layers]]
@@ -49,6 +51,8 @@
 [[layers]]
     name = 'floobits'
 [[layers]]
+    name = 'fzf'
+[[layers]]
     name = 'git'
 [[layers]]
     name = 'github'
@@ -57,21 +61,39 @@
 [[layers]]
     name = 'lang#c'
 [[layers]]
+    name = 'lang#elixir'
+[[layers]]
+    name = 'lang#extra'
+[[layers]]
     name = 'lang#go'
 [[layers]]
-    name = "lang#html"
+    name = 'lang#haskell'
+[[layers]]
+    name = 'lang#html'
+[[layers]]
+    name = 'lang#java'
+[[layers]]
+    name = 'lang#kotlin'
 [[layers]]
     name = 'lang#latex'
 [[layers]]
     name = 'lang#lisp'
 [[layers]]
+    name = 'lang#lua'
+[[layers]]
     name = 'lang#markdown'
+[[layers]]
+    name = 'lang#nim'
 [[layers]]
     name = 'lang#perl'
 [[layers]]
     name = 'lang#python'
 [[layers]]
+    name = 'lang#racket'
+[[layers]]
     name = 'lang#rust'
+[[layers]]
+    name = 'lang#scala'
 [[layers]]
     name = 'lang#scheme'
 [[layers]]
@@ -81,7 +103,15 @@
     default_position = 'top'
     default_height = 30
 [[layers]]
+    name = 'sudo'
+[[layers]]
     name = 'test'
+[[layers]]
+    name = 'tmux'
+[[layers]]
+    name = 'tools'
+[[layers]]
+    name = 'ui'
 [[layers]]
     name = 'unite'
 [[layers]]
