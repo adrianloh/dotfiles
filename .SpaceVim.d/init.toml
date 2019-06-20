@@ -92,6 +92,7 @@
     name = 'lang#racket'
 [[layers]]
     name = 'lang#rust'
+    recommended-style = "enable"
 [[layers]]
     name = 'lang#scala'
 [[layers]]
