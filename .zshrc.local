@@ -37,6 +37,9 @@ export MANPATH="/usr/local/man:$MANPATH"
 export PATH=$HOME/.go/bin:$HOME/dev/go/bin:/home/linuxbrew/.linuxbrew/bin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/bin:$PATH
 export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig
 
+# rust env
+export RUST_SRC_PATH=~/.multirust/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust
+
 # go env
 export GOPATH=$HOME/dev/go
 export GTAGSLABEL=ctags
