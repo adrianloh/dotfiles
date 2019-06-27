@@ -30,7 +30,7 @@
     enable_ale = true
     lint_on_the_fly = true
     disabled_plugins = ["neco-look"]
-    bootstrap_after="spacesNotTabs#after"
+    bootstrap_before="autoload#after"
 
 # Enable autocomplete layer
 [[layers]]
@@ -99,6 +99,8 @@
     name = 'lang#scheme'
 [[layers]]
     name = 'lang#sh'
+[[layers]]
+    name = 'lsp'
 [[layers]]
     name = 'shell'
     default_position = 'top'
