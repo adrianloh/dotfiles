@@ -103,6 +103,8 @@
     filetypes = [
         'rust'
     ]
+    [layers.override_cmd]
+        rust = ["ra_lsp_server"]
 [[layers]]
     name = 'shell'
     default_position = 'top'
