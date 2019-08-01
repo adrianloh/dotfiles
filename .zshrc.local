@@ -15,7 +15,7 @@ alias pip='/usr/bin/pip3'
 alias config='/usr/bin/git --git-dir=/home/ahriman/.dotfiles/ --work-tree=/home/ahriman'
 alias pkgs='/usr/bin/apt search --names-only'
 alias netstat='netstat -lntp'
-alias cat='bat -p'
+alias cat='bat'
 alias mtr='mtr -t'
 alias devdash='devdash --config .devdash-github.yml'
 
