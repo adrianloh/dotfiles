@@ -18,6 +18,8 @@ alias netstat='netstat -lntp'
 alias cat='bat'
 alias mtr='mtr -t'
 alias devdash='devdash --config .devdash-github.yml'
+alias todo='ultralist'
+alias t='todo'
 
 # some aliases for cd use
 alias devgo='cd ~/dev/go/src/github.com'
@@ -36,7 +38,9 @@ export BROWSER=firefox
 export TERM=xterm-256color
 export MANPATH="/usr/local/man:$MANPATH"
 export PATH=$HOME/.SpaceVim/bin:$HOME/.go/bin:$HOME/dev/go/bin:/home/linuxbrew/.linuxbrew/bin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/bin:$PATH
-export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig
+export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/local/lib/x86_64-linux-gnu/pkgconfig:/usr/share/pkgconfig
+
+export GDK_BACKEND=x11
 
 # hub, the github cli tool
 export HUB_CONFIG=$HOME/.config/hub
