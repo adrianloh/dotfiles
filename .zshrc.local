@@ -40,7 +40,7 @@ export EDITOR=$VISUAL
 export BROWSER=firefox
 export TERM=xterm-256color
 export MANPATH="/usr/local/man:$MANPATH"
-export PATH=$HOME/.SpaceVim/bin:$HOME/.go/bin:$HOME/dev/go/bin:/home/linuxbrew/.linuxbrew/bin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/bin:$PATH
+export PATH=$HOME/.SpaceVim/bin:$HOME/.go/bin:$HOME/dev/go/bin:/home/linuxbrew/.linuxbrew/bin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/bin:$HOME/.ghcup/bin:$PATH
 export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/local/lib/x86_64-linux-gnu/pkgconfig:/usr/share/pkgconfig
 
 export GDK_BACKEND=x11
