@@ -20,6 +20,7 @@ alias mtr='mtr -t'
 alias devdash='devdash --config .devdash-github.yml'
 alias todo='ultralist'
 alias t='todo'
+alias rebase='interactive-rebase-tool'
 
 # some aliases for cd use
 alias devgo='cd ~/dev/go/src/github.com'
