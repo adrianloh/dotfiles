@@ -13,7 +13,7 @@
 # ###############################
 exec xcompmgr &
 exec "sh ~/.fehbg &"
-exec "redshift -l 37:76 -t 5500:4000 &"
+exec "redshift -l 34:84 -t 5500:4000 &"
 exec "pactl upload-sample /usr/share/sounds/freedesktop/stereo/bell.oga x11-bell"
 exec "pactl load-module module-x11-bell sample=x11-bell display=$DISPLAY"
 exec "xset b 100"
