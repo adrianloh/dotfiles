@@ -40,6 +40,7 @@ alias gk='/home/ahriman/bin/gk'
 # misc environment modifications
 export VISUAL=vim
 export EDITOR=$VISUAL
+export PAGER=bat
 export BROWSER=firefox
 export TERM=xterm-256color
 export MANPATH="/usr/local/man:$MANPATH"
@@ -47,6 +48,7 @@ export PATH=$HOME/.SpaceVim/bin:$HOME/.go/bin:$HOME/dev/go/bin:/home/linuxbrew/.
 export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/local/lib/x86_64-linux-gnu/pkgconfig:/usr/share/pkgconfig
 
 export GDK_BACKEND=x11
+export RANGER_LOAD_DEFAULT_RC=false
 
 # hub, the github cli tool
 export HUB_CONFIG=$HOME/.config/hub
