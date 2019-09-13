@@ -7,6 +7,8 @@ gpg-connect-agent updatestartuptty /bye > /dev/null
 gpgconf --create-socketdir
 
 
+alias less='$PAGER'
+alias more='$PAGER'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
