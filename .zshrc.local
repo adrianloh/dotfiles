@@ -21,6 +21,7 @@ alias devdash='devdash --config .devdash-github.yml'
 alias todo='ultralist'
 alias t='todo'
 alias rebase='interactive-rebase-tool'
+alias ldc='ldmd2'
 
 # some aliases for cd use
 alias devgo='cd ~/dev/go/src/github.com'
@@ -29,6 +30,7 @@ alias devg='cd ~/dev/github/'
 alias devgg='cd ~/dev/github/gbmor'
 alias devggf='cd ~/dev/github/gbmor-forks'
 alias devh='cd ~/dev/haskell'
+alias devj='cs ~/dev/javascript'
 alias devk='cd ~/dev/keybase'
 alias devs='cd ~/dev/scala'
 alias devt='cd ~/dev/tmp'
@@ -41,7 +43,7 @@ export EDITOR=$VISUAL
 export BROWSER=firefox
 export TERM=xterm-256color
 export MANPATH="/usr/local/man:$MANPATH"
-export PATH=$HOME/.SpaceVim/bin:$HOME/.go/bin:$HOME/dev/go/bin:/home/linuxbrew/.linuxbrew/bin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/bin:$HOME/.ghcup/bin:$PATH
+export PATH=$HOME/.SpaceVim/bin:$HOME/.go/bin:$HOME/dev/go/bin:/home/linuxbrew/.linuxbrew/bin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/bin:$HOME/.ghcup/bin:/snap/bin:$PATH
 export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/local/lib/x86_64-linux-gnu/pkgconfig:/usr/share/pkgconfig
 
 export GDK_BACKEND=x11
@@ -68,6 +70,8 @@ prompt_context(){}
 #SPACESHIP_PROMPT_ADD_NEWLINE=false
 
 ulimit -n 8096
+
+#eval "$(starship init zsh)"
 
 # these are environment variables
 # that I don't want on github
