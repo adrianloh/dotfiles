@@ -28,6 +28,7 @@ alias devdash='devdash --config .devdash-github.yml'
 alias ldc='ldmd2'
 alias rebase='interactive-rebase-tool'
 alias rust-musl-builder='docker run --rm -it -v "$(pwd)":/home/rust/src ekidd/rust-musl-builder'
+alias cargogen='cargo generate --git https://github.com/gbmor/cargo-template --name'
 
 # some aliases for cd use
 alias devgo='cd ~/dev/go/src/github.com'
@@ -38,6 +39,7 @@ alias devggf='cd ~/dev/github/gbmor-forks'
 alias devh='cd ~/dev/haskell'
 alias devj='cd ~/dev/javascript'
 alias devk='cd ~/dev/keybase'
+alias devq='cd ~/dev/quotum'
 alias devs='cd ~/dev/scala'
 alias devt='cd ~/dev/tmp'
 alias devtilde='cd ~/dev/tildegit'
@@ -50,7 +52,7 @@ export PAGER=bat
 export BROWSER=firefox
 export TERM=xterm-256color
 export MANPATH="/usr/local/man:$MANPATH"
-export PATH=$HOME/.SpaceVim/bin:$HOME/.go/bin:$HOME/dev/go/bin:/home/linuxbrew/.linuxbrew/bin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/bin:$HOME/.ghcup/bin:/snap/bin:$PATH
+export PATH=/snap/bin:$HOME/.go/bin:$HOME/dev/go/bin:/home/linuxbrew/.linuxbrew/bin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/bin:$HOME/.ghcup/bin:/snap/bin:$PATH
 export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/local/lib/x86_64-linux-gnu/pkgconfig:/usr/share/pkgconfig
 
 export GDK_BACKEND=x11
@@ -70,6 +72,11 @@ export GO111MODULE=on
 export GOMAXPROCS=4
 alias godoc='godoc -v -index -http=:6060'
 
+# clojure
+export BOOT_CLOJURE_NAME=org.clojure/clojure
+export BOOT_VERSION=2.8.3
+export BOOT_CLOJURE_VERSION=1.8.0
+
 # hide user@host for agnoster oh-my-zsh theme
 DEFAULT_USER=ahriman
 prompt_context(){}
@@ -80,6 +87,9 @@ prompt_context(){}
 ulimit -n 8096
 
 #eval "$(starship init zsh)"
+
+# shadowgate mud over ssl
+alias shadowgate='socat TCP-LISTEN:8080,fork,reuseaddr OPENSSL:shadowgate.org:8443'
 
 # these are environment variables
 # that I don't want on github
