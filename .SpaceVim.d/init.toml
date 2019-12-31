@@ -72,6 +72,9 @@
 [[layers]]
     name = 'lang#java'
 [[layers]]
+    name = 'lang#javascript'
+    auto_fix = true
+[[layers]]
     name = 'lang#kotlin'
 [[layers]]
     name = 'lang#latex'
@@ -127,3 +130,9 @@
 [[custom_plugins]]
     name = "airblade/vim-gitgutter"
     merged = true
+[[custom_plugins]]
+    name = "honza/vim-snippets"
+    merged = true
+[[custom_plugins]]
+    name = "neoclide/coc-rls"
+    marged = true

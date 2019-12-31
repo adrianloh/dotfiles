@@ -7,7 +7,8 @@ export ZSH="/home/ahriman/.oh-my-zsh"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
 #ZSH_THEME="agnoster"
-ZSH_THEME="spaceship"
+#ZSH_THEME="kolo"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -77,3 +78,13 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 source $HOME/.zshrc.local
+
+PATH="/home/ahriman/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/ahriman/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/ahriman/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/ahriman/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/ahriman/perl5"; export PERL_MM_OPT;
+fpath=($fpath "/home/ahriman/.zfunctions")
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh

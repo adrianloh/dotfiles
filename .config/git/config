@@ -11,3 +11,7 @@
 
 [commit]
 	gpgsign = true
+[hub]
+	protocol = ssh
+[sequence]
+	editor = interactive-rebase-tool
