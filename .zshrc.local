@@ -29,6 +29,7 @@ alias t='todo'
 
 # misc dev aliases
 alias devdash='devdash --config .devdash-github.yml'
+alias gcc='/usr/bin/gcc'
 alias ldc='ldmd2'
 alias rebase='interactive-rebase-tool'
 alias rust-musl-builder='docker run --rm -it -v "$(pwd)":/home/rust/src ekidd/rust-musl-builder'
