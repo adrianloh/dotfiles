@@ -90,6 +90,12 @@
     name = 'lang#perl'
 [[layers]]
     name = 'lang#python'
+    python_file_head = [
+        '#!/usr/bin/env python3',
+        '# -*- coding: utf-8 -*-',
+        '',
+        ''
+    ]
 [[layers]]
     name = 'lang#racket'
 [[layers]]
@@ -106,7 +112,8 @@
 [[layers]]
     name = 'lsp'
     filetypes = [
-        'rust'
+        'rust',
+        'python'
     ]
     [layers.override_cmd]
         rust = ["ra_lsp_server"]
