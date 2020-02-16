@@ -1,8 +1,8 @@
 [sendemail]
-    smtpencryption = tls
-    smtpserver = gbmor.dev
-    smtpuser = ben
-    smtpserverport = 587
+	smtpencryption = tls
+	smtpserver = smtp.fastmail.com
+	smtpuser = ben@gbmor.dev
+	smtpserverport = 465
 	annotate = yes
 [user]
     name = "Ben Morrison"
