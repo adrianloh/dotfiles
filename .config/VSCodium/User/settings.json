@@ -1,6 +1,6 @@
 {
   "breadcrumbs.enabled": true,
-  "clang-format.executable": "/usr/bin/clang-format-8",
+  "clang-format.executable": "/usr/bin/clang-format-9",
   "d.servedPath": "/home/ahriman/.local/share/code-d/bin/serve-d",
   "editor.acceptSuggestionOnEnter": "off",
   "editor.fontFamily": "Fira Code",
@@ -49,5 +49,12 @@
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.enableNaturalLanguageSearch": false,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "githubPullRequests.telemetry.enabled": false,
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "C_Cpp.clang_format_style": "LLVM",
+  "C_Cpp.default.cStandard": "c11",
+  "C_Cpp.default.intelliSenseMode": "gcc-x64"
 }
