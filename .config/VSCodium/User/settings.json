@@ -52,9 +52,11 @@
   "editor.formatOnSave": true,
   "githubPullRequests.telemetry.enabled": false,
   "[c]": {
-    "editor.defaultFormatter": "xaver.clang-format"
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.tabSize": 2
   },
-  "C_Cpp.clang_format_style": "LLVM",
   "C_Cpp.default.cStandard": "c11",
-  "C_Cpp.default.intelliSenseMode": "gcc-x64"
+  "C_Cpp.default.intelliSenseMode": "clang-x64",
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.clang_format_style": "Mozilla"
 }
