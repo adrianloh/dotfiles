@@ -206,7 +206,7 @@ bar {
   status_command i3status
 #  position top
 #  mode  hide
-    font pango:Hasklig 9
+  font pango:Fira Code 9
   colors {
     separator #7d7d7d
     background #141414
