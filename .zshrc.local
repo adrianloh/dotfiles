@@ -57,7 +57,7 @@ export BROWSER=firefox
 export TERM=xterm-256color
 export MANPATH="/usr/local/man:$MANPATH"
 export PATH=/usr/local/tinygo/bin:$HOME/.emacs.d/bin:/snap/bin:$HOME/dev/go/bin:/home/linuxbrew/.linuxbrew/bin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/bin:$HOME/.ghcup/bin:/snap/bin:$PATH
-export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/local/lib/x86_64-linux-gnu/pkgconfig:/usr/share/pkgconfig
+export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/local/lib/x86_64-linux-gnu/pkgconfig:/usr/share/pkgconfig:/usr/local/lib/pkgconfig
 
 export GDK_BACKEND=x11
 export RANGER_LOAD_DEFAULT_RC=false
