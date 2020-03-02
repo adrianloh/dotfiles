@@ -31,7 +31,6 @@
     enable_ale = true
     lint_on_the_fly = true
     disabled_plugins = ["neco-look", "floobits"]
-    bootstrap_before="autoload#after"
 
 # Enable autocomplete layer
 [[layers]]
