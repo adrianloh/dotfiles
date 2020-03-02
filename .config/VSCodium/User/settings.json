@@ -58,5 +58,6 @@
   "C_Cpp.default.cStandard": "c11",
   "C_Cpp.default.intelliSenseMode": "clang-x64",
   "C_Cpp.default.cppStandard": "c++17",
-  "C_Cpp.clang_format_style": "Mozilla"
+  "C_Cpp.clang_format_style": "Mozilla",
+  "todo-tree.tree.showScanModeButton": false
 }
